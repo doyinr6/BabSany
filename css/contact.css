@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Neuton|Rufina|Saira+Condensed&display=swap');
+
+body{
+	margin: 0;
+	padding:0;
+}
+.wrap{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.prenav {
+	align-items: center;
+	display: flex;
+	justify-content: center;	
+}
+
+ .logo {
+ 	position: static;
+ 	flex: 3;
+ 	align-self: flex-start;
+ 	justify-content: flex-start;
+	font-size: 24px;
+	letter-spacing: -1px;
+	word-spacing: -3px;
+	font-weight: bold;
+	font-family: Helvetica;
+}
+
+.ico{
+font-size: 20px;
+flex:2;
+margin-right: 10px;
+}
+.siden{
+	flex: 10;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.menug{
+	display: flex;
+	flex: 9;
+}
+.location,  .contact,  .hours{
+	align-items: center;
+	justify-content: center;
+	flex: 3;
+	font-size: 10px;
+	margin: 10px;
+}
+
+.prenav .logo .nig{
+	font-size: 24px;
+}
+
+.prehead{
+	font-size: 14px;
+	font-weight: bold;
+	align-items: center;
+	color: grey;
+
+}
+
+.prebody{
+	
+	font-size: 12px;
+	font-weight: bold;
+}
+.collag{
+	display: flex;
+	flex-direction: row;
+}
+
+.collap{
+ 	justify-content: flex-end;
+	font-weight: bolder;
+	font-size: 30px;
+	align-self: flex-end;
+	display: none;
+}
+.collac p{
+	display: none;
+	font-size: 24px;
+	 font-weight: bold;
+}
+/*navbar*/
+
+.nav{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	background: #272727;
+	z-index: 5;
+	align-items: center;
+     box-shadow: 0px 1px 5px 2px rgba(0,0,0,.5);
+
+}
+.menug{
+	flex-direction: row;
+}
+.nav a{
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	padding-right: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	z-index: 2;
+	margin: 10px;
+	text-decoration: none;
+}
+.nav a:hover{
+	
+	color: #FF8C00;
+	z-index: 2;
+	text-decoration: none;
+}
+
+nav li ul {
+display: none;
+} 
+nav li ul li{
+padding: 10px;
+} 
+
+
+nav li.served:hover ul {
+display: flex;
+flex-direction: column;
+position: absolute;
+background: #272727;
+padding: 10px;
+
+}
+/*about*/
+.servicepage{
+	display: flex;
+	flex-direction: column;
+}
+.servicefirst{
+	display: flex;
+		flex-direction: row;
+}
+.serviceprofile{
+	display: flex;
+	flex: 7.5;
+	flex-direction: column;
+}
+.servicepics{
+	display: flex;
+	flex-direction: column;
+	flex: 4.5;
+}
+
+.servicepics img{
+	width: 100%;
+	margin: 5px;
+}
+
+.serviceheader{
+	background: whitesmoke;
+	padding: 15px;
+	margin: 10px;
+	align-items: center;
+	border-bottom: 2px solid black
+}
+.servicebody{
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+}
+
+.servicedetail{
+	font-size: 1em;
+}
+.servicearea{
+	padding: 5px 10px;
+	font-weight: bold;
+	color: grey;
+}
+.servicearea-detail li{
+	padding: 5px;
+}
+
+.safety{
+	display: flex;
+	flex-direction: column;
+
+}
+.safety h5{
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.safetybody{
+	padding: 5px;
+
+}
+
+/* WORKS*/
+.contactpage{
+	text-align: center;
+	padding: 20px 50px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+
+}
+.con{
+	color: white;
+	padding: 20px 30px; 
+	margin: 20px;
+}
+.conbody{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid grey;
+
+}
+.coninfo{
+	background: #272727;
+	display: flex;
+	flex: 6;
+	flex-direction: column;
+}
+
+.lochead{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: bold
+}
+.locbody{
+	text-decoration: none !important;
+}
+.conform{
+	flex: 6;
+	margin: 20px 10px;
+	padding: 20px 30px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+ .btned{
+ 	align-self: center;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	width: 200px;
+ }
+.message, .firstname, .lastname, .email, .subject{
+	padding: 10px;
+	width: 100%;
+	color: #262626;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.message{
+height: 200px;
+}
+
+
+/*footer*/
+footer{
+	width: 100%;
+	clear: both;
+	margin-top: 50px;
+	background: #272727;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+  	left: 0;
+  	bottom: 0;
+}
+
+
+.foot{
+	display: flex;
+	flex-direction: column;
+}
+.firstfoot{
+display: flex;
+flex-direction: row;
+}
+
+.babsany{
+flex:6;
+display: flex;
+flex-direction: column;
+}
+.secondfoot{
+flex:6;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+
+.footicon{
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 20px;
+}
+
+.footicon:hover{
+	color: #FF8C00;
+	font-weight: bold;
+	text-decoration: none;
+}
+.facted{
+	margin: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+
+.iconi{
+	align-items: flex-end;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+.thirdfoot{
+	margin: 10px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.copyright{
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+/*responsiveness*/
+@media (max-width: 1300px) {
+
+}
+
+	
+
+
+@media (max-width: 991px) {
+
+	
+	.bab{
+	margin: 30px;
+	align-self: flex-start;
+	align-items: flex-start;
+}
+.babhead{
+	margin: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.babhead2{
+	font-size: 1.3em; 
+	font-weight: bold;
+	margin: 10px;
+}
+
+.menug{
+	display: flex; important!
+	flex-direction: row;
+	flex: 6;
+}
+.prehead{
+	font-size: 12px;
+
+}
+.prebody{
+	font-size: 10px;
+
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+.conbody{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid grey;
+
+}
+.coninfo{
+	background: gray;
+	display: flex;
+	flex: 6;
+	flex-direction: column;
+}
+
+.servicefirst{
+	flex-direction: column;
+}
+.bab{
+	background: rgba(60,60,60,0.6);
+	padding: 10px;
+	margin-top: -50px;
+}
+
+
+
+.firstfoot{
+	flex-direction: column;
+}
+
+.foot{
+		flex-direction: column;
+		align-self: center;
+	justify-content: center;
+	}
+
+.bab{
+	margin: 20px;
+	align-self: flex-start;
+}
+.babhead{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.babhead2{
+	font-size: 1.5em; 
+	font-weight: bold;
+	margin: 10px;
+}
+.fact{
+	display: none;
+}
+.ico{
+font-size: 18px;
+margin-right: 2px;
+}
+
+.menug{
+	flex: 9;
+	flex-direction: column;
+	display: none;
+}
+.Navbar__ToggleShow {
+    display: flex;
+  }
+  .collap{
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: initial;
+    cursor: pointer;
+   } 
+
+
+
+}
+
+
+@media (max-width: 660px){
+
+.bab{
+	margin: 20px;
+	align-self: flex-start;
+}
+.babhead{
+	margin: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.babhead2{
+	font-size: 1.3em; 
+	font-weight: bold;
+	margin: 10px;
+}
+
+}
+
+
+@media (max-width: 530px) {
+	
+.babhead{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.babhead2{
+	font-size: 1.1em; 
+	font-weight: bold;
+	margin: 10px;
+}
+
+.fact{
+
+	display: flex;
+}
+.menug{
+	flex-direction: column;
+}
+	.iconed{
+	display: none;
+}
+
+
+
+}
+
+
+@media (max-width: 360px){
+
+	
+.bab{
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+.babhead{
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9em;
+	font-weight: bold;
+} 
+.babhead2{
+	font-size: 1em; 
+}
+	 .collap{
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: initial;
+    cursor: pointer;
+   } 
+
+	
+}
+
+
+
+@media (max-width: 320px){
+		
+	
+	
+	
+}
